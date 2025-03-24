@@ -25,13 +25,13 @@ const Sidebar = ({ activePage, setActivePage }) => {
   ];
 
   return (
-    <div className="w-20  h-screen flex flex-col items-center py-4 px-2 sm:px-4">
+    <div className="md:w-20 w-16   h-screen flex flex-col items-center py-4 px-1 ml-1 sm:px-4">
       
       {menuItems.map((item) => (
         <button
           key={item.id}
           onClick={() => setActivePage(item.id)}
-          className={`w-12 h-12 mb-4 flex items-center justify-center rounded-full aspect-square transition-all duration-200 ${
+          className={`md:w-12 md:h-12  w-10 h-10 mb-4 flex items-center justify-center rounded-full aspect-square transition-all duration-200 ${
             activePage === item.id
               ? "bg-[#514EF3] text-white shadow-md"
               : "bg-white text-[#7E92A2] shadow-sm"
