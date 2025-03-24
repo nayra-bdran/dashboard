@@ -101,7 +101,7 @@ const CustomersCard = () => {
       </div>
 
       {/* Tasks Card */}
-      <div className="bg-[#F6FAFD] rounded-2xl p-4 m-6 ">
+      <div className="bg-[#F6FAFD] rounded-2xl px-4 py-4 mt-6 ">
         <div className="flex justify-between items-center mb-4 ">
           <h3 className="text-sm font-semibold text-gray-700">Tasks To Do</h3>
           <button className="text-sm text-[#514EF3] font-medium">

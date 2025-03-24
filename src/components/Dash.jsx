@@ -78,14 +78,14 @@ const Dash = () => {
           </div>
 
           {/* Center Column */}
-          <div className="w-full max-w-[510px] min-w-[320px] flex-1">
+          <div className="w-full max-w-[510px] min-w-[310px] flex-1">
             <Suspense fallback={<div>Loading deals...</div>}>
               <RecentDeals />
             </Suspense>
           </div>
 
           {/* Right Column */}
-          <div className="w-full max-w-[460px] min-w-[320px] flex-1 bg-[#EEF6FB]">
+          <div className="w-full max-w-[460px] min-w-[310px] flex-1 bg-[#EEF6FB]">
             <Suspense fallback={<div>Loading customers...</div>}>
               <CustomersCard />
             </Suspense>
